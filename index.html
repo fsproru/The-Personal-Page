@@ -17,11 +17,12 @@
   <![endif]-->
   <style>
     * { padding: 0; margin: 0; }
-    body { background-color: #333; }
-    h1 {font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: bold; margin-bottom: 20px; line-height: 130%; color: #000; text-shadow: none; font-size: 50px}
-    p { color: #000; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 27px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
-    a { color: #000; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;}
+    body { background-color: #333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; }
+    h1 { color: #000; font-weight: bold; font-size: 50px; margin-bottom: 20px; line-height: 130%; text-shadow: none; }
+    p { color: #000; }
+    a { color: #000; }
     a:hover { color: #6b6b6b; }
+    .content { color: #000; font-size: 18px; line-height: 27px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
     #about { width: 400px; padding: 0 0 0 0; margin: 25px 50px auto auto !important; }
     ul#icons { white-space:nowrap;width: 400px; padding: 0 0 0 0; margin: 25px 50px auto auto !important;}
     ul#icons li { display:inline; list-style-type:none; padding: 0 5px 0 0 }
@@ -52,8 +53,14 @@
 <!-- swap out for information about yourself -->
 <div id="about">
   <h1>Alex Tamoykin</h1>
-  <p><a href="http://www.linkedin.com/pub/alexander-tamoykin/20/889/9b/" target="_blank">Senior Software Engineer</a>, Husband, Father, <a href="http://www.lapingpong.com/?s=team+zest&x=-911&y=-8" target="_blank">Table Tennis Team Captain</a>, Mentor, <a href="http://github.com/fsproru" target="_blank">Open Source Contributor</a></p>
-  <p>Photo by <a href="https://www.facebook.com/kate.lomteva" target="_blank">Kate Lomteva</a></p>
+
+  <ul class="content">
+    <li><a href="http://www.linkedin.com/pub/alexander-tamoykin/20/889/9b/" target="_blank">Senior Software Engineer</a></li>
+    <li><a href="http://github.com/fsproru" target="_blank">Open Source Contributor</a></li>
+    <li><a href="http://www.lapingpong.com/?s=team+zest&x=-911&y=-8" target="_blank">Table Tennis Team Captain</a></li>
+  </ul>
+
+  <p class="content">Photo by <a href="https://www.facebook.com/kate.lomteva" target="_blank">Kate Lomteva</a></p>
 
   <ul id="icons">
     <li><a href="http://www.linkedin.com/pub/alexander-tamoykin/20/889/9b/" target="_blank"><img src="images/linkedin.png"></a></li>
